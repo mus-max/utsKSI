@@ -102,6 +102,10 @@ if (isset($_POST['kirim'])){
         <h3>Hasil</h3>
         <table border="3" cellpadding="6" cellspacing="0">
             <tr>
+                <td><b>Input</b></td>
+                <td><?php echo htmlspecialchars($input); ?></td>
+            </tr>
+            <tr>
                 <td><b>Output</b></td>
                 <td><code><?php echo htmlspecialchars($hasilProses); ?></code></td>
             </tr>
